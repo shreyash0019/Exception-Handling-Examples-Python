@@ -25,18 +25,18 @@ This repository demonstrates exception handling in Python with a simple ATM appl
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/atm-exception-handling.git
+   git clone https://github.com/yourusername/Exception-Handling-Python.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd atm-exception-handling
+   cd Exception-Handling-Python
    ```
 
 ### Usage
 
 1. Run the script:
    ```bash
-   python atm_application.py
+   python Exception-Handling-Pythonn.py
    ```
 2. Follow the prompts to:
    - Enter your PIN.
