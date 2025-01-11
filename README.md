@@ -9,6 +9,7 @@ This repository demonstrates exception handling in Python with a simple ATM appl
 - **Withdraw Money**: Handle withdrawal requests with checks for sufficient funds.
 - **Deposit Money**: Update the balance when money is deposited.
 - **Custom Exceptions**: Examples of handling invalid PINs and insufficient balance scenarios.
+- **Match-Case Statements**: Utilized to simplify menu operations and improve code readability.
 
 ## Example Exceptions Covered
 
@@ -25,18 +26,18 @@ This repository demonstrates exception handling in Python with a simple ATM appl
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Exception-Handling-Python.git
+   git clone https://github.com/yourusername/Exception-Handling-Examples-Python.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd Exception-Handling-Python
+   cd Exception-Handling-Examples-Python
    ```
 
 ### Usage
 
-1. Run the script:
+1. Run the main script:
    ```bash
-   python Exception-Handling-Pythonn.py
+   python ATMOperationsMain.py
    ```
 2. Follow the prompts to:
    - Enter your PIN.
@@ -69,9 +70,11 @@ Transaction successful! Remaining balance: 900
 
 ```
 ATM Application
-├── atm_application.py  # Main script with the ATM logic
-├── exceptions.py       # Custom exception classes
-└── README.md           # Project documentation
+├── ATMOperations.py      # Contains core ATM operations logic
+├── ATMOperationsMain.py  # Entry point of the application
+├── AtmExcpt.py           # Custom exception classes
+├── AtmMenu.py            # Menu handling using match-case statement
+└── README.md             # Project documentation
 ```
 
 ## Custom Exceptions
@@ -90,4 +93,10 @@ Contributions are welcome! Feel free to fork the repository and submit a pull re
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
+## Contact
+
+For any questions or feedback, feel free to reach out:
+
+- **Name**: Shreyash Ingle
+- **Email**:ingleshreyas01@example.com
 
